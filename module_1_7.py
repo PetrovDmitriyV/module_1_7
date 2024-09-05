@@ -1,0 +1,22 @@
+grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
+students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
+print(grades)
+print(students)
+students = list(students)
+students = sorted(students)
+print(students)
+a1 = (grades[0])
+print(sum(a1) / len(a1))
+a11 = sum(a1) / len(a1)
+print(a11)
+a2 = (grades[1])
+a22 = sum(a2) / len(a2)
+a3 = (grades[2])
+a33 = sum(a3) / len(a3)
+a4 = (grades[3])
+a44 = sum(a4) / len(a4)
+a5 = (grades[4])
+a55 = sum(a5) / len(a5)
+print(students[0] , a11, students[1] , a22, students[2], a33, students[3], a44, students[4], a55)
+slovar = {students[0] : a11, students[1] : a22, students[2] : a33, students[3] : a44, students[4] : a55}
+print(slovar)
